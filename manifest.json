@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Redirect Test",
+  "version": "0.0.1",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
